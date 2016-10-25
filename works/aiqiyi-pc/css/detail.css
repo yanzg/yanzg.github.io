@@ -1,0 +1,448 @@
+body{
+	font-size: 14px;
+}
+h3{
+	float: left;
+	height: 25px;
+	width: 96px;
+	background: url(../img/detail/spirte.png) no-repeat;
+}
+.content header{
+	height: 25px;
+	margin-bottom: 15px;
+}
+.content .more a{
+	float: left;
+	height: 12px;
+	width: 37px;
+	margin-left: 8px;
+	margin-top: 10px;
+	background: url(../img/detail/spirte.png) no-repeat -150px 0;
+}
+.detail_head_m{
+	height: 18px;
+	line-height: 18px;
+	margin-top: 7px;
+	margin-left: 25px;
+}
+.detail_head_m a,.detail_head_m span{
+	float: left;
+}
+.detail_head_m a{
+	padding: 0 3px;
+}
+.detail_head_m span{
+	height: 11px;
+	width: 1px;
+	background: url(../img/detail/spirte.png) no-repeat -150px -25px;
+	margin: 4px 12px 0;
+}
+
+/*  吊顶   */
+
+.top{
+	height: 36px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	background: url(../img/search/top_bg.png) repeat-x;
+}
+.head{
+	margin-bottom: 28px;
+}
+
+/*      F1部内容           */
+.topline{
+	padding-bottom: 21px;
+	border-bottom: 1px solid #e7e7e7;
+	margin-bottom: 19px;
+}
+.topline_con_l{
+	height: 248px;
+	width: 380px;
+	margin-right: 14px;
+}
+.topline_con_l a{
+	height: 248px;
+	width: 380px;
+	float: left;
+	position: relative;
+	color: #fff;
+}
+.topline_con_l a .float{
+	 height: 40px;
+	 width: 100%;
+	 position: absolute;
+	 left: 0;
+	 bottom: 0;
+}
+.topline_con_l a .bg{
+	 height: 100%;
+	 width: 100%;
+	 background: #000;
+	 opacity: .5;
+	 position: absolute;
+	 left: 0;
+	 bottom: 0;
+}
+.topline_con_l a .hot{
+	 height: 100%;
+	 width: 100%;
+	 line-height: 40px;
+	 position: absolute;
+	 left: 0;
+	 bottom: 0;
+}
+.topline_con_l .hot span{
+	 float: left;
+}
+.topline_con_l .hot .ico{
+	 height: 40px;
+	 width: 40px;
+	 background: url(../img/detail/spirte.png) no-repeat 0 -200px;
+	 margin-right: 5px;
+}
+.topline_con_m{
+	width: 380px;
+}
+.topline_con_m dl{
+	background: url(../img/detail/F1-m-bg.png) no-repeat bottom;
+	padding-bottom: 12px;
+	margin-bottom: 10px;
+}
+.topline_con_m .margin2{
+	padding-bottom: 0;
+	margin-bottom: 0;
+	background: none;
+}
+.topline_con_m dt{
+	height: 32px;
+	line-height: 32px;
+	font-size: 20px;
+	padding-bottom: 4px;
+}
+.topline_con_m dd{
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	padding-left: 10px;
+	background: url(../img/detail/spirte.png) no-repeat -300px 14px;
+}
+.topline_con_r{
+	width: 560px;
+}
+.content2 li{
+	width: 180px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+.content2 .pic{
+	height: 101px;
+	width: 180px;
+}
+.content2 .pic a{
+	height: 101px;
+	width: 100%;
+	float: left;
+	color: #fff;
+	position: relative;
+}
+.content2 .pic .float{
+	height: 22px;
+	width: 100%;
+	float: left;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.content2 .pic .bg{
+	height: 22px;
+	width: 100%;
+	background: #000;
+	opacity: .5;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.content2 .pic .text{
+	height: 22px;
+	line-height: 22px;
+	position: absolute;
+	left: 3px;
+	bottom: 0;
+}
+.content2 p{
+	height: 28px;
+	line-height: 28px;
+}
+/*      F2部内容           */
+.guess{
+	margin-bottom: 7px;
+}
+.guess_head h3{
+	background-position: 0 -25px;
+}
+.content1 li{
+	width: 180px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	float: left;
+}
+.content1 .picture{
+	height: 101px;
+	width: 180px;
+}
+.content1 .hot .float2{
+	width: 42px;
+	margin-right: 7px;
+}
+.content1 .picture a{
+	height: 101px;
+	width: 180px;
+}
+.content1 p{
+	height: 28px;
+	line-height: 28px;
+}
+.guess_con .green a{
+	float: left;
+	height: 101px;
+	width: 180px;
+	background: #85ba4d;
+	color: #fff;
+	font-size: 20px;
+	line-height: 101px;
+	text-align: center;
+}
+/*      F3部内容           */
+.star{
+	padding-bottom: 12px;
+	border-bottom: 1px solid #e7e7e7;
+	margin-bottom: 19px;
+}
+.star_head h3{
+	background-position: 0 -50px;
+}
+.star_con_l p,.korean_con_l p,.perform_con_l p{
+	height: 28px;
+	line-height: 28px;
+}
+.star_con_r,.korean_con_r,.perform_con_r{
+	width: 956px;
+}
+.star_con_r li,.korean_con_r li,.perform_con_r li{
+	margin-right: 14px;
+}
+/*      F4部内容           */
+.korean{
+	padding-bottom: 12px;
+	border-bottom: 1px solid #e7e7e7;
+	margin-bottom: 20px;
+}
+.korean_head h3{
+	background-position: 0 -75px;
+}
+.korean .korean_head{
+	height: 30px;
+}
+.korean_head_l{
+	padding-top: 5px;
+}
+.korean .detail_head_m{
+	padding: 5px;
+}
+/*      F5部内容           */
+.filmand{
+	padding-bottom: 12px;
+}
+.filmand_l h3{
+	background-position: 0 -100px;
+}
+.filmand_con_l p{
+	height: 28px;
+	line-height: 28px;
+}
+.filmand_l{
+	width: 1155px;
+}
+.filmand_r_con li{
+	margin-right: 14px;
+}
+.filmand_r_con{
+	width: 762px;
+}
+.filmand_r{
+	width: 180px;
+}
+.filmand_r h3{
+	width: 120px;
+	background-position: -150px -100px;
+}
+.filmand_r li{
+	width: 180px;
+	height: 28px;
+	line-height: 28px;
+	padding-top: 5px;
+	background: url(../img/detail/F1-m-bg.png) no-repeat bottom;
+}
+.filmand_r .active{
+	width: 180px;
+	height: 101px;
+	padding-top: 0;
+	margin-bottom: 3px;
+	position: relative;
+}
+.filmand_r .active .digit{
+	position: absolute;
+	top: 0;
+	left: 0px;
+	margin-top: 0;
+}
+.filmand_r .text{
+	width: 180px;
+	height: 22px;
+	line-height: 22px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	color: #fff;
+}
+.filmand_r .digit{
+	width: 19px;
+	height: 19px;
+	color: #fff;
+	text-align: center;
+	background: #699f00;
+	line-height: 19px;
+	margin-top: 4px;
+	margin-right: 5px;
+}
+.filmand_con_t{
+	padding-bottom: 22px;
+}
+/*      F6部内容           */
+.b_banner{
+	padding-bottom: 20px;
+}
+/*      F7部内容           */
+.hotspot{
+	padding-bottom: 12px;
+	border-bottom: 1px solid #a7a7a7;
+	margin-bottom: 20px;
+}
+.hotspot h3{
+	background-position: 0 -125px;
+}
+/*      F8部内容           */
+.perform{
+	padding-bottom: 12px;
+}
+.perform h3{
+	background-position: 0 -150px;
+}
+/*      F9部内容           */
+.produce{
+	padding-bottom: 30px;
+}
+.produce h3{
+	width: 120px;
+	background-position: 0 -175px;
+}
+.produce_con_l{
+	width: 956px;
+}
+.produce_con_l li{
+	margin-right: 14px;
+}
+.produce_con_r{
+	width: 380px;
+}
+.produce_r_t{
+	width: 334px;
+	border: 1px solid #f1f1f1;
+	background: #f6f6f6;
+	font-size: 12px;
+	font-family: "宋体";
+	color: #000;
+	padding: 16px 22px 0;
+	height: 223px;
+}
+.produce_r_t li{
+	float: left;
+	text-align: center;
+	width: 76px;
+	margin-bottom: 6px;
+	margin-right: 10px;
+}
+.produce_r_t .img{
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+}
+.produce_r_t .img a{
+	float: left;
+	border: 2px solid #a8de86;
+	position: relative;
+}
+.produce_r_t .img .ioc{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 12px;
+	height: 12px;
+	background: url(../img/detail/spirte.png) no-repeat 0 -240px;
+}
+.produce_r_t .text{
+	height: 24px;
+	line-height: 24px;
+}
+.produce_r_t .attentio{
+	width: 180px;
+	height: 27px;
+	margin: 0 auto;
+	padding-top: 5px;
+	font-size: 14px;
+}
+.produce_r_t .attentio_l{
+	width: 104px;
+	height: 27px;
+	background: url(../img/detail/spirte.png) no-repeat -300px -25px;
+	text-indent: -9999em;
+}
+.produce_r_t .attentio_r{
+	height: 26px;
+	padding-top: 1px;
+	line-height: 26px;	
+}
+.produce_con_r p{
+	height: 24px;
+	line-height: 24px;
+	color: #666;
+}
+/*      F10部内容           */
+.partner{
+	padding: 13px 0 11px 14px;
+	font-size: 12px;
+	background: #f6f6f6;
+	border: 1px solid #f1f1f1;
+	margin-bottom: 20px;
+}
+.partner header{
+	height: 24px;
+	line-height: 24px;
+}
+.partner h4{
+	font-size: 16px;
+	color: #518900;
+	font-weight: normal;
+	margin-right: 12px;
+}
+.partner header a{
+	color: #699f00;
+}
+.partner_con li{
+	height: 22px;
+	line-height: 22px;
+	width: 78px;
+	float: left;
+}

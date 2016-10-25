@@ -1,0 +1,22 @@
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearFix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+body{
+	min-width: 1349px;
+	max-width: 1349px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #999;
+	font-family: Tahoma,"微软雅黑",Arial,Tahoma,"hiragino sans gb",Helvetica;
+}
+a{
+	color: #333;
+}

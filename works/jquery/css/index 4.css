@@ -1,0 +1,11 @@
+#top{
+	display: none;
+}
+.nav a{
+	display: none;
+}
+.xiala{
+	display: block;
+	width: 90%;
+	margin:  0 auto;
+}

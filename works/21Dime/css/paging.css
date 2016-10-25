@@ -1,0 +1,452 @@
+html{
+	font-family:  Korolev,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body,html{ height:100%}
+body{
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+ul{
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: middle;
+}
+#box{
+	height: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	position: relative;
+	overflow:hidden;
+}
+/* 
+	主页一
+ */
+#one-page{
+	height: 100%;
+	width: 100%;
+	background: #161716;
+	/*cursor: url(../imgs/one-page/1.cur),pointer;*/
+	overflow: hidden;
+	position: relative;
+}
+/* 
+	头部LOGO&&MENU
+ */
+.herder{
+	width: 100%;
+	height: 40px;
+	margin-top: 40px;
+	/*position: fixed;*/
+}
+.herder h1{
+	margin: 0;
+	margin-left: 40px;
+	float: left;
+	z-index: 1;
+}
+.herder h1 a{
+	width: 165px;
+	height: 38px;
+	display: block;
+}
+.circle-hover{
+	position: relative;
+}
+.svg-brand-logo{
+	width: 165px;
+	height: 38px;
+}
+.circle{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: white;
+	opacity: 0;
+	transition: 0.5s;
+	transform: scale(0.1);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -60px;
+	margin-left: -60px;
+}
+.menu{
+	width: 86px;
+	height: 33px;
+	/*line-height: 33px;*/
+	float: right;
+	position: relative;
+	z-index: 3;
+	display: block;
+	margin-right: 40px;
+}
+/*css效果menu移入时点切换位置*/
+.menu-icon{
+	width: 16px;
+	height: 14px;
+	position: relative;
+	top: 3px;
+	left: 5px;
+	display: inline-block;
+}
+.menu-icon .menu-dot:nth-child(1){
+	left: 0;
+	top: 0;
+	transition-delay: .1s;
+}
+.menu-icon .menu-dot:nth-child(2){
+	left: calc(50% - 2px);
+	top: calc(50% - 2px);
+}
+.menu-icon .menu-dot:nth-child(3){
+	right: 0;
+	bottom: 0;
+	transition-delay: 0s;
+}
+.menu-icon .menu-dot:nth-child(4){
+	left: 12px;
+	top: 0;
+	opacity: 0;
+	transition-delay: .1s;
+}
+.menu-icon .menu-dot:nth-child(5){
+	left: 0;
+	bottom: 0;
+	opacity: 0;
+}
+.menu-icon .menu-dot{
+	width: 4px;
+	height: 4px;
+	/*content: '';*/
+	border-radius: 50%;
+	background: #fff;
+	display: inline-block;
+	transition: all 0.4s;
+	position: absolute;
+}
+.circle2{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #f5ea13;
+	opacity: 0;
+	transition: 0.5s;
+	transform: scale(0.1);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -65px;
+	margin-left: -60px;
+	z-index: -1;
+}
+.menu-label{
+	float: right;
+	font-size: 18px;
+	font-family:  Korolev,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #F5EA13;
+	transition: color 0.1s;
+}
+
+/*中心内容*/
+#center{
+	max-width: 1024px;
+	padding-top: 2%;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	margin-left: -512px;
+}
+.center-header{
+	width: 100%;
+	height: 278px;
+}
+.video-wrapper{
+	width: 800px;
+	height: 50%;
+	border: 7px solid #fff;
+	background: #000;
+	margin: 0 auto;
+	margin-top: 150px;
+	margin-bottom: 150px; 
+}
+.center-text{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.center-text p{
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	line-height: 100px; 
+	font-family: arial;
+	margin-top: 50px;
+}
+/*
+	footer脚部 
+*/
+footer{
+	width: 100%;
+	height: 34px;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 40px;
+	z-index: 10;
+}
+.play-btn{
+	height: 20px;
+	position: absolute;
+	left: 50px;
+	bottom: 10px;
+	cursor: pointer;
+}
+.equalizer{
+	width: 20px;
+	height: 20px;
+	float: left;
+	overflow: hidden;
+	transform: rotateY(180deg);
+}
+.bar{
+	width: 0;
+	height: 2px;
+	background: #fff;
+	transition: 0.5s;
+	margin-top: 4px;
+}
+.Mbox{
+	line-height: 20px;
+	float: left;
+	position: relative;
+	top: 0;
+	left: 5px;
+}
+.music-name{
+	float: left;
+	font-size: 18px;
+	color: #f5ea13;
+	transition: color 1s;
+}
+.circle1{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: white;
+	opacity: 0;
+	transition: 0.5s;
+	transform: scale(0.1);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -60px;
+	margin-left: -60px;
+}
+.logos{
+	width: 275px;
+	height: 100%;
+	position: absolute;
+	right: 40px;
+	top: 0;
+}
+.bnp{
+	width: 160px;
+	height: 34px;
+	float: left;
+	background: url(../imgs/one-page/sLogo1.png) no-repeat;
+	background-size: 100%; 
+	opacity: 0.9;
+}
+.sazz{
+	width: 75px;
+	height: 30px;
+	float: right;
+	background: url(../imgs/one-page/sLogo2.png) no-repeat;
+	background-size: 100%;
+	margin-top: 3px;
+	margin-right: 15px;  
+	opacity: 0.9;
+}
+
+/*
+	点击menu时触发two-page第二页
+*/
+#two-page{
+	width: 100%;
+	height: 100%;
+	background-color: #F5EA13;
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	transition: all 0.5s;
+}
+.artist-nav{
+	width: 60%;
+	height: 95%;
+	margin: 0 auto;
+	position: relative;
+	left: 0;
+	top: 20%;
+}
+/*创一个自己动画针*/
+@keyframes fmove{
+	0%{opacity:1;transform: scale(1);}
+	50%{opacity:1;transform: scale(1.2);}
+	100%{opacity:1;transform: scale(1);}
+}
+/*
+	动画讲解第一个参数是:动画名name
+	第二个参数是:动画完成所需要的时间
+	第三个参数是:动画的速度曲线
+	第四个参数是:动画开始之前的延迟;
+	animation-fill-mode : forwards;(使动画运动完后可以停留在当前而不消失);
+*/
+.artist-nav li:nth-of-type(1){
+	animation: fmove .3s cubic-bezier(.18,.89,.28,1.2) 0s;
+	animation-fill-mode : forwards;
+}
+.artist-nav li:nth-of-type(2){
+	animation: fmove .3s cubic-bezier(.18,.89,.28,1.2) .3s;
+	animation-fill-mode : forwards;
+}
+.artist-nav li:nth-of-type(3){
+	animation: fmove .6s cubic-bezier(.18,.89,.28,1.2) .6s;
+	animation-fill-mode : forwards;
+}
+.artist-nav li:nth-of-type(4){
+	animation: fmove .8s cubic-bezier(.18,.89,.25,1.2) .3s;
+	animation-fill-mode : forwards;
+}
+.artist-nav li:nth-of-type(5){
+	animation: fmove .5s cubic-bezier(.18,.29,.28,1.2) .4s;
+	animation-fill-mode : forwards;
+}
+.artist-nav li:nth-of-type(6){
+	animation: fmove .8s cubic-bezier(.18,.89,.28,1.2) .2s;
+	animation-fill-mode : forwards;
+}
+.artist-nav li:nth-of-type(7){
+	animation: fmove .5s cubic-bezier(.18,.39,.28,1.2) .6s;
+	animation-fill-mode : forwards;
+}
+.artist-nav li:nth-of-type(8){
+	animation: fmove .2s cubic-bezier(.18,.79,.28,1.2) .4s;
+	animation-fill-mode : forwards;
+}
+.nav-list{
+	float: left;
+	width: 260px;
+	height: 260px;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+	overflow: hidden;
+	background-color: #fff;
+	/*display: none;*/
+	opacity: 0;
+}
+.C-hover{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+}
+.C-hover>img{
+	width: 180px;
+	height: auto;
+	position: absolute;
+	top: 35%;
+	left: 15%;
+	opacity: 0;
+	z-index: 1;
+	transition: 0.4s;
+	transform: rotateX(90deg);
+}
+.artist-photo{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #121312;
+	transition: 0.4s;
+	overflow: hidden;
+	display: block;
+}
+/*给每个DIV的背景图片定位*/
+.artist-nav li:nth-of-type(1) span{
+	background: #121312 url(../imgs/two-page/sabrina_starke_cover.png) no-repeat center center;
+	background-size: 75%;
+}
+.artist-nav li:nth-of-type(2) span{
+	background: #121312 url(../imgs/two-page/jungle_by_night_cover.png) no-repeat 100% 100%;
+	background-size: 110%;
+}
+.artist-nav li:nth-of-type(3) span{
+	background: #121312 url(../imgs/two-page/tigran_hamasyan_cover.png) no-repeat 100% 0;
+	background-size: 100%;
+}
+.artist-nav li:nth-of-type(4) span{
+	background: #121312 url(../imgs/two-page/ibrahimmaalouf_cover.png) no-repeat 0 100%;
+	background-size: 90%;
+}
+.artist-nav li:nth-of-type(5) span{
+	background: #121312 url(../imgs/two-page/candy_dulfer_cover.png) no-repeat 100% 0;
+	background-size: 100%;
+}
+.artist-nav li:nth-of-type(6) span{
+	background: #121312 url(../imgs/two-page/airelle_besson_cover.png) no-repeat 100% 100%;
+	background-size: 100%;
+}
+.artist-nav li:nth-of-type(7) span{
+	background: #121312 url(../imgs/two-page/cyrille_aimee_cover.png) no-repeat 100% 100%;
+	background-size: 100%;
+}
+.artist-nav li:nth-of-type(8) a img{
+	top: 20%;
+	left: 15%;
+	transform: rotateX(0deg);
+	opacity: 1;
+}
+
+/*滚动条*/
+.scroll{
+	width: 20px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.scroll-box{
+	width: 20px;
+	height: 100px;
+	background: yellow;
+	position: absolute;
+}
+.center-name{
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 100px;
+	color: #232323;
+	text-transform: uppercase;
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+.center-list{
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 100px;
+	cursor: pointer;
+	position: relative;
+}

@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document*/
+    /*通用*/
+    html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, label, blockquote, th, td, button, span {
+    padding:0;
+    margin:0;
+    font-family:"微软雅黑";
+    /*font-size:16px;
+    */
+    color:#353535;
+}
+
+em{
+    font-style: normal;
+}
+
+a {
+    color: #333333;
+}
+a,img,button,input,textarea,select,label,div,li,span{
+    -webkit-tap-highlight-color:rgba(255,255,255,0);
+    /*background:rgba(0, 0, 0, 0);
+    */
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+
+html, body {
+        position: relative;
+        height: 100%;
+        margin:0 auto;
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    /*font-family: "微软雅黑";*/
+    text-decoration: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+li {
+    display: block;
+    list-style-type: none;
+}
+
+img {
+    border:0 none;
+    vertical-align:top;
+}
+
+.clearFix:after{
+    visibility:hidden;
+    display:block;
+    font-size:0;
+    content: " ";
+    clear:both;
+    height:0;
+}
+.clearFix{
+    *zoom:1;
+}

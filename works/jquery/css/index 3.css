@@ -1,0 +1,26 @@
+.top_left{
+	display: none;
+}
+.top_right{
+	float: none;
+}
+.nav{
+	float: none;
+	width: 100%;
+	margin: 0 auto;
+}
+.search{
+	float: none;
+	width: 90%;
+	margin: 0 auto;
+}
+#nav{
+	border: none;
+	box-shadow:none;
+}
+#guide{
+	border-radius: 10px 10px 0 0;
+}
+.gl1{
+	height: auto;
+}
