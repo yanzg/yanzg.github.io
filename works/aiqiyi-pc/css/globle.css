@@ -17,8 +17,16 @@ h2{
 	width: 63px;
 }
 .no_script{
-	text-indent: -2000em;
+	/*text-indent: -2000em;*/
+	/*text-indent: -9999px;
+	outline: none;*/ /* 去掉Firefox点击时产生的虚线框 */
+	font-size:0;
 }
+/*div header:after{
+	content: "";
+	display: block;
+	clear: both;
+}*/
 .more a{
 	width: 40px;
 	height: 12px;
