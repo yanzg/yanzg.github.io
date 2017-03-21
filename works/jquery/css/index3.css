@@ -1,0 +1,13 @@
+#top{
+	display: none;
+}
+#main .main_l .nav{
+	display: none;
+}
+#main #tinynav2{
+	display: block;
+	
+}/*
+body{
+	min-width: 320px;
+}*/

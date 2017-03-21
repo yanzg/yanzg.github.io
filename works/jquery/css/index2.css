@@ -1,0 +1,73 @@
+.top_l{
+	display: none;
+}
+#top .top_r{
+	float: none;
+}
+#content .logo{
+	padding: 20px 0 10px;
+}
+#content .logo .logo_l{
+	float: none;
+	
+	margin: 20px auto 0;
+}
+#content .logo .logo_r{
+	float: none;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+}
+#content .logo img{
+	max-width: 100%;
+}
+#content #main {
+    padding: 0 20px;
+    background: none;
+    border-radius: 0;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    box-shadow: none;
+}
+#content .interior_content{
+	padding: 0 10px;
+}
+#content .main_l{
+	float: none;
+	width: 100%;
+	padding: 0;
+	text-align: left;
+	font-size: 14px;
+}
+#content .main_l li{
+	padding: 0 4px 4px 0;
+	margin-right: 0;
+	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;;
+}
+#content .main_l a{
+	display: inline;
+	padding: 0 4px 4px 0;
+}
+#content .main_r{
+	padding: 0;
+	float: none;
+	width: 100%;
+	margin-bottom: 15px;
+}
+#content .main_r input{
+	padding: 5px 10px;
+	width: 95.4%;
+}
+#content .main_r a{
+	top: 4px;
+	
+}
+#wrapper{
+	border-radius: 10px 10px 0 0;
+}
+#constrain .constrain_t li{
+	float: none;
+	width: 50%;
+	margin: 0 auto;
+}
