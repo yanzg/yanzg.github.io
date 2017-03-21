@@ -1,43 +1,24 @@
-body,dl,dd,p,h1,h2,h3,h4,h5,h6{margin:0; font-size: 12px; }
-ol,ul{margin:0;padding:0;list-style:none;}
-a{text-decoration:none; font-size: 12px; color: black;}
-img{border:none; vertical-align: top; }
-p{color: #b3b3b3;}
-h6{
-	color: #333333;
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6{
+	margin: 0;
 }
-
+ul,ol{
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
 form{
 	margin:0;
 }
 input{
 	padding:0;
 	margin:0;
+	
 }
-option{
-	padding:0;
-}
-textarea{
-	resize: none;
-}
-div{
-	font-size: 12px;
-}
-a{
-				text-decoration: none;
-				/*清除点击链接和文本框对象时默认的灰色半透明覆盖层(iOS)或者虚框(Android)*/
-				-webkit-tap-highlight-color:rgba(0,0,0,0);
-			}
-input{
-				-webkit-tap-highlight-color:transparent;
-				-webkit-appearance: none;
-				/*消除输入框和按钮的原生外观，在iOS上加上这个属性才能给按钮和输入框自定义样式*/ 
-			}
-html{
-				height: 100%;
-				overflow: hidden;
-			}
-			body{
-				height: 100%;
-				overflow: auto;
-			}
