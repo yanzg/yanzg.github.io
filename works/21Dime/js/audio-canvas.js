@@ -6,6 +6,7 @@ var context = new AudioContext();
 function audioPlay(n){
 	//创建音频;
 	var audio = new Audio('mp3/'+Marr[n]);
+	
 	audio.addEventListener('canplay', function(){
 		//添加要处理的媒体;
 		var source = context.createMediaElementSource(audio);

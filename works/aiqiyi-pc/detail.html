@@ -19,6 +19,7 @@
 			document.createElement('dsads');
 		</script>
 		<script src="js/DD_belatedPNG_0.0.8a.js"></script>
+		<script type="text/javascript" src="js/jquery-2.0.3.js"></script>
 		<script>
 			DD_belatedPNG.fix('.bg,.icon');
 		</script>
@@ -26,12 +27,156 @@
 	<body>
 		<div class="top">
 			<div class="top_l fl">
-				<h1>爱奇艺</h1>
+				<h1 onclick="window.location.href='index.html';">爱奇艺</h1>
 				<div class="topDot">
 					<h2>娱乐</h2>
 				</div>
 				<div class="equally_nav fl">
-					<a href="#">导航</a>
+					<div class="kuai">
+						<a href="#">导航</a>
+					</div>
+					<div class="yNav" style="display: none;">
+						<ul class="subNav_entert bg">
+							<li>
+								<a href="detail.html">娱乐</a>
+							</li>
+							<li>
+								<a href="#">体育</a>
+							</li>
+							<li>
+								<a href="#">资讯</a>
+							</li>
+						</ul>
+						<ul class="subNav_tv bg inside_fl">
+							<li>
+								<a href="search.html">电影</a>
+							</li>
+							<li>
+								<a href="#">电视剧</a>
+							</li>
+							<li>
+								<a href="#">片花</a>
+							</li>
+							<li>
+								<a href="#">综艺</a>
+							</li>
+							<li>
+								<a href="#">微电影</a>
+							</li>
+							<li>
+								<a href="#">脱口秀</a>
+							</li>
+						</ul>
+						<ul class="subNav_few bg inside_fl">
+							<li>
+								<a href="#">动漫</a>
+							</li>
+							<li>
+								<a href="#">生活</a>
+							</li>
+							<li>
+								<a href="#">少儿</a>
+							</li>
+							<li>
+								<a href="#">母婴</a>
+							</li>
+							<li>
+								<a href="#">游戏</a>
+							</li>
+							<li>
+								<a href="#">健康</a>
+							</li>
+						</ul>
+						<ul class="subNav_few bg inside_fl">
+							<li>
+								<a href="#">音乐</a>
+							</li>
+							<li>
+								<a href="#">搞笑</a>
+							</li>
+							<li>
+								<a href="#">时尚</a>
+							</li>
+							<li>
+								<a href="#">原创</a>
+							</li>
+							<li>
+								<a href="#">旅游</a>
+							</li>
+							<li>
+								<a href="#">拍客</a>
+							</li>
+						</ul>
+						<ul class="subNav_tv bg inside_fl">
+							<li>
+								<a href="#">财经</a>
+							</li>
+							<li>
+								<a href="#">军事</a>
+							</li>
+							<li>
+								<a href="#">科技</a>
+							</li>
+							<li>
+								<a href="#">教育</a>
+							</li>
+							<li>
+								<a href="#">汽车</a>
+							</li>
+							<li>
+								<a href="#">纪录片</a>
+							</li>
+						</ul>
+						<ul class="subNav_news bg inside_fl">
+							<li>
+								<a href="#">风云榜</a>
+							</li>
+							<li>
+								<a href="#">公益</a>
+							</li>
+							<li>
+								<a href="#">全网影视</a>
+							</li>
+							<li>
+								<a href="#">直播中心</a>
+							</li>
+							<li>
+								<a href="#">爱奇艺搜索</a>
+							</li>
+							<li>
+								<a href="#">爱奇艺出品</a>
+							</li>
+						</ul>
+						<ul class="subNav_news bg inside_fl">
+							<li>
+								<a href="#">PPS游戏</a>
+							</li>
+							<li>
+								<a href="#">PPS奇秀</a>
+							</li>
+							<li>
+								<a href="#">应用商店</a>
+							</li>
+							<li class="dot">
+								<a href="#"><i class="small_msg"></i>爱频道</a>
+							</li>
+							<li>
+								<a href="#">爱奇艺商城</a>
+							</li>
+							<li class="dot">
+								<a href="#"><i class="small_msg"></i>个人中心</a>
+							</li>
+						</ul>
+						<ul class="subNav_VIP fl">
+							<li class="clearFix">
+								<a href="#" class="fl">
+									<i></i>
+									<span>VIP</span>
+									<span>会员</span>
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div class="top_r equally fr">
@@ -78,6 +223,12 @@
 				</ul>
 			</div>	
 		</div>
+		<script type="text/javascript">
+			$('.equally_nav .kuai a').click(function(){
+				$('.equally_nav .yNav').toggle();
+			})
+		</script>
+
 		<header class="head">
 			<div class="head_t">
 				<div class="bg opa"></div>

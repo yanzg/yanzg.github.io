@@ -4,7 +4,7 @@ var num1 = 0,num2=0;
 var n = 0;
 var n1 = 1;
 var timer = null,timer2 = null;
-var text = [`AINTI' A WOMAN?`,'PIRANHA','THE COURT JESTER','NOMADE SlANG','HEY 30','DASH!','THEER LITTLE WORDS'];
+var text = ["AINTI' A WOMAN?",'PIRANHA','THE COURT JESTER','NOMADE SlANG','HEY 30','DASH!','THEER LITTLE WORDS'];
 var Parr = ['sabrina.png','Jungle.png','tigran.png','ibrahimmaalouf.png','candy.png','Airelle.png','cyrille.png'];
 var Iarr = ['SE.png','JT.png','TN.png','IF.png','CR.png','AN.png','CE.png'];
 var Marr = ['Woman.mp3','Piranha.mp3','The Court Jester.mp3','Nomade Slang.mp3','Hey Now.mp3','Boston.mp3','Three Little Words.mp3',]
@@ -40,7 +40,7 @@ timer = setInterval(function(){
 						$('#one-page').show();
 						sabrina_starke();
 						se();
-						audioPlay(n);
+						audioPlay(0);
 						next();
 						prev();
 					});

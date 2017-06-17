@@ -215,16 +215,6 @@ form a{
 	width: 110px;
 	background: url(../img/search/sprite.png) no-repeat;
 }
-.equally_nav{
-	text-indent: -2999em;
-	padding-top: 4px;
-}
-.equally_nav a{
-	float: left;
-	height: 31px;
-	width: 87px;
-	background: url(../img/search/sprite.png) no-repeat 0 -145px;
-}
 .top_r{
 	padding-top: 3px;
 }
@@ -278,6 +268,121 @@ form a{
 .head_t_con a:hover{
 	color: #82d900;
 }
+
+/*   导航   */
+
+.equally_nav{
+	position: relative;
+	padding-bottom: 5px;
+	font-size: 12px;
+}
+.equally_nav .kuai{
+	text-indent: -2999em;
+	padding-top: 4px;
+}
+.equally_nav .kuai a{
+	float: left;
+	height: 31px;
+	width: 87px;
+	background: url(../img/search/sprite.png) no-repeat 0 -145px;
+}
+.equally_nav .yNav{
+	position: absolute;
+	top: 41px;
+	left: -193px;
+	height: 75px;
+	border-radius: 7px;
+	width: 1229px;
+	background-color: #111;
+	z-index: 1000;
+	padding: 7px 60px 6px;
+}
+.yNav a{
+	color: #ccc;
+}
+.yNav ul{
+	float: left;
+	padding-left: 24px;
+}
+.yNav .bg{
+	background: url(../img/index/nav_dg.png) no-repeat right;
+}
+.subNav_entert{
+	width: 77px;	
+}
+.yNav ul li{
+	height: 22px;
+	line-height: 22px;
+	padding-top: 3px;
+}
+.subNav_entert li{
+	padding-left: 20px;
+	padding-right: 30px;
+}
+.subNav_tv{
+	width: 129px;
+}
+.inside_fl li{
+	float: left;	
+}
+.subNav_tv li{
+	padding-right: 28px;
+	width: 36px;
+}
+.subNav_few{
+	width: 103px;
+}
+.subNav_few li{
+	padding-right: 27px;
+	width: 24px;
+}
+.subNav_news{
+	width: 197px;
+}
+.subNav_news li{
+	padding-left: 1px;
+	padding-right: 37px;
+	width: 60px;
+}	
+.subNav_news .dot a{
+	float: left;
+	position: relative;
+	padding-right: 7px;
+} 
+.subNav_news .dot i{
+	position: absolute;
+	top: -1px;
+	right: 0;
+	overflow: hidden;
+}
+.yNav .subNav_VIP{
+	padding-left: 42px;
+	text-align: center;
+	padding-top: 12px;
+}
+.subNav_VIP li{
+	width: 30px;
+}
+.subNav_VIP li a{
+	line-height: 18px;
+}
+.subNav_VIP a{
+	width: 30px;
+	padding-top: 16px;
+	position: relative;
+}
+.subNav_VIP a i{
+	position: absolute;
+	top: 0;
+	left: 5px;
+	width: 20px;
+	height: 16px;
+	overflow: hidden;
+	background: url(../img/ico_sprite.png) no-repeat -300px -120px;
+}
+
+
+
 /*   页脚        */
 footer{
 	border-top: 1px solid #cccccc;

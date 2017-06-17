@@ -19,6 +19,7 @@
 			document.createElement('dsads');
 		</script>
 		<script src="js/DD_belatedPNG_0.0.8a.js"></script>
+		<script type="text/javascript" src="js/jquery-2.0.3.js"></script>
 		<script>
 			DD_belatedPNG.fix('.bg,.icon');
 		</script>
@@ -112,7 +113,7 @@
 				<h1>爱奇艺</h1>
 				<ul class="subNav_entert bg">
 					<li>
-						<a href="#">娱乐</a>
+						<a href="detail.html">娱乐</a>
 					</li>
 					<li>
 						<a href="#">体育</a>
@@ -123,7 +124,7 @@
 				</ul>
 				<ul class="subNav_tv bg inside_fl">
 					<li>
-						<a href="#">电影</a>
+						<a href="search.html">电影</a>
 					</li>
 					<li>
 						<a href="#">电视剧</a>
@@ -252,6 +253,11 @@
 				</ul>
 			</div>
 		</header>
+		<script type="text/javascript">
+			$('.bg_list li').click(function(){
+				$(this).addClass('active').siblings().removeClass('active')
+			})
+		</script>
 		<div class="focus clearFix content">
 			<div class="focus_left fl">
 				<header class="focus_l_head no_script border_bottom">
