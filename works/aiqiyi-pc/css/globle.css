@@ -6,6 +6,9 @@ h1{
 	padding-top: 10px;
 	float: left;
 }
+body a:hover{
+	color: #82d900;
+}
 h2{
 	font-size: 18px;
 	height: 18px;
